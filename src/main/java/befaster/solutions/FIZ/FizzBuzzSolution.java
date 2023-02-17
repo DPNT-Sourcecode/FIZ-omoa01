@@ -6,7 +6,7 @@ import com.sun.org.apache.xpath.internal.objects.XNull;
 public class FizzBuzzSolution {
 
     public String fizzBuzz(Integer number) {
-        String answer = null;
+        String answer = "";
         if (number % 3 == 0) {
             answer += "fizz ";
         }
@@ -14,12 +14,10 @@ public class FizzBuzzSolution {
             answer += "buzz ";
         }
 
-        if (answer == null)
+        if (answer.equals(""))
             return String.valueOf(number);
         else
             return answer.trim();
     }
 
 }
-
-
