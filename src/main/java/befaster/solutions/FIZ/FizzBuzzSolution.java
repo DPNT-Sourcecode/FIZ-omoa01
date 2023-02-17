@@ -7,10 +7,10 @@ public class FizzBuzzSolution {
 
     public String fizzBuzz(Integer number) {
         String answer = "";
-        if (number % 3 == 0) {
+        if (number % 3 == 0|| String.valueOf(number).contains("3")) {
             answer += "fizz ";
         }
-        if (number % 5 == 0) {
+        if (number % 5 == 0|| String.valueOf(number).contains("5")) {
             answer += "buzz ";
         }
 
@@ -21,3 +21,4 @@ public class FizzBuzzSolution {
     }
 
 }
+
