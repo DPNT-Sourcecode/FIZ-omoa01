@@ -13,7 +13,7 @@ public class FizzBuzzSolution {
         if (number % 5 == 0 || String.valueOf(number).contains("5")) {
             answer += "buzz ";
         }
-        if(number % 3 == 0 && String.valueOf(number).contains("3")||number % 5 == 0 || String.valueOf(number).contains("5")){
+        if(number % 3 == 0 && String.valueOf(number).contains("3")||number % 5 == 0 && String.valueOf(number).contains("5")){
             if(number%2==1)
                 answer+="fake ";
             answer+="deluxe ";
@@ -25,6 +25,7 @@ public class FizzBuzzSolution {
     }
 
 }
+
 
 
 
