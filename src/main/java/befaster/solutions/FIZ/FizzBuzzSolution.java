@@ -21,7 +21,13 @@ public class FizzBuzzSolution {
                     valid=false;
             }
             if(valid==true)
-            answer += "deluxe ";
+            {
+                if(number%2==1)
+                    answer += "fake deluxe ";
+                else
+                    answer +="deluxe";
+            }
+            
         }
         if (answer.equals(""))
             return String.valueOf(number);
@@ -30,3 +36,4 @@ public class FizzBuzzSolution {
     }
 
 }
+
