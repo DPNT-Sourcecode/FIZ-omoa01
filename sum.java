@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class sum {
+public class sum {
+    public static int sum(int a, int b) {
+        return a + b;
+    }
 }

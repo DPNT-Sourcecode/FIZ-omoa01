@@ -29,7 +29,7 @@ public class SendCommandToServer {
      *        * You trigger one of the actions by typing it on the console.
      *        * After the action feedback is presented, the execution will stop.
      *
-     *   +------+-----------------------------------------------------------------------+
+     *   +------+-------------------------d---------------------------------------------+
      *   | Step | The usual workflow                                                    |
      *   +------+-----------------------------------------------------------------------+
      *   |  1.  | Run this file.                                                        |
