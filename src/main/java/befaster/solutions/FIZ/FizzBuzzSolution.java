@@ -13,7 +13,7 @@ public class FizzBuzzSolution {
         if (number % 5 == 0 || String.valueOf(number).contains("5")) {
             answer += "buzz ";
         }
-        if (number >= 10 || number % 10 == number % 100 / 10) {
+        if (number >= 10 && number % 10 == number % 100 / 10) {
             answer += "deluxe ";
         }
         if (answer.equals(""))
@@ -23,6 +23,7 @@ public class FizzBuzzSolution {
     }
 
 }
+
 
 
 
