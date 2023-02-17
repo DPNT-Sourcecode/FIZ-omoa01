@@ -7,28 +7,15 @@ public class FizzBuzzSolution {
 
     public String fizzBuzz(Integer number) {
         String answer = "";
-        if (number % 3 == 0 || String.valueOf(number).contains("3")) {
-            answer += "fizz ";
-        }
-        if (number % 5 == 0 || String.valueOf(number).contains("5")) {
-            answer += "buzz ";
-        }
-        if (number >= 10) {
-            boolean valid=true;
-            for(int i=0;i< String.valueOf(number).length()&&valid==true;i++)
-            {
-                if(String.valueOf(number).charAt(i)!=String.valueOf(number).charAt(0))
-                    valid=false;
-            }
-            if(valid==true)
-            {
-                if(number%2==1)
-                    answer += "fake deluxe ";
-                else
-                    answer +="deluxe";
-            }
-            
-        }
+       if(number%3==0)
+       {
+           answer+="fizz";
+           if(String.valueOf(number).contains("3"))
+           {
+               if()
+           }
+       }
+
         if (answer.equals(""))
             return String.valueOf(number);
         else
@@ -36,4 +23,5 @@ public class FizzBuzzSolution {
     }
 
 }
+
 
